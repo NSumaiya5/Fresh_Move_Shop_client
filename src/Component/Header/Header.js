@@ -37,7 +37,7 @@ const Header = () => {
         <div>
         
         < Navbar  text="primary"  expand="lg" >
-        <Navbar.Brand href="/home"><h2 style={{ color: 'greenyellow' }}className=" rounded p-3 "><b>Fresh Move</b></h2></Navbar.Brand>
+        <Navbar.Brand href="/home"><h2 style={{ color: 'greenyellow' }}className=" rounded p-3 "><b>Fresh Move Shop</b></h2></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse  className="nav justify-content-end">
         <Link to ="/home"style={{ color: 'greenyellow' }} className="nav-link"><b>Home</b></Link>

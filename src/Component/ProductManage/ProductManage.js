@@ -5,7 +5,7 @@ const ProductManage = ({ product }) => {
 
         const handleDelete = (id) => {
 
-                fetch(`http://localhost:4200/deleteProduct/${id}`, {
+                fetch(`https://hidden-falls-79989.herokuapp.com/deleteProduct/${id}`, {
                         method: "DELETE"
                 })
                         .then(res => res.json())

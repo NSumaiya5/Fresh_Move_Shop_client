@@ -20,7 +20,7 @@ const CheckOut = () => {
     });
     const [orders,setOrders] = useState({})
     useEffect(()=>{
-        fetch(`http://localhost:4200/products/${id}`)
+        fetch(`https://hidden-falls-79989.herokuapp.com/products/${id}`)
         .then(res=> res.json())
         .then(data => setOrders(data))
     },[id])
@@ -44,7 +44,7 @@ const CheckOut = () => {
             weight: weight,
             imageURL:imageURL
         }
-      fetch(`http://localhost:4200/buyProduct`,{
+      fetch(`https://hidden-falls-79989.herokuapp.com/buyProduct`,{
           method: "POST",
           headers: {'Content-Type':'application/json'},
           body: JSON.stringify(orderInfo)

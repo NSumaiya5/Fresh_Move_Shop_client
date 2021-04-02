@@ -15,7 +15,7 @@ const AddProducts = () => {
         imageURL:imageURL
       };
 
-      const url = `http://localhost:4200/addProduct`;
+      const url = `https://hidden-falls-79989.herokuapp.com/addProduct`;
       console.log(productData);fetch(url, {
         method: 'POST',
         headers: {
